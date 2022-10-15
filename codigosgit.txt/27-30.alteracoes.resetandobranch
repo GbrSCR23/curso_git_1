@@ -12,4 +12,22 @@ Resumo :
 
 ----------------FIM--------------------
 
-28. 
+28. Ignorando arquivos no projeto
+
+Uma tecnica muito utilizada é ignorar arquvivos do projeto;
+
+Devemos inserir um arquvio chamado .gitignore na raiz do projeto;
+
+Nele podemos inserir todos os arquvios que nao devem entrar no versionamento
+
+Isso é util para arquvios gerados automaticamente ou arquivos que contem informações sensiveis
+
+
+
+29. resetando um branch
+
+Com o comando git reset podemos resetar as mudanças feitas
+
+Geralmente é utilizado com a flag --hard
+
+Todas as alterações commitadas e também as pendentes serão excluídas;
