@@ -6,3 +6,43 @@ Com o comando git fetch você é atualizado de todos os branchs e tags que ainda
 
 Este comando é útil para utilizar o branch de algum outro dev do time por exemplo
 
+48. utilizando o remote 
+
+Com o git remote podemos fazer algumas ações como:adicionar um repo para trackear ou remover;
+
+Quando criamos um repo remoto adicionamos ele ao git com o git remote add origin <link>
+
+git remote add origin https://github.com/GbrSCR23/curso_git_1.git(esse é o nosso link oficial do github pra copiar nos repositorio, porém em alguns casos se muda o repositorio e o link e só da o git remote add origin (link atual e ele vai redenziar o link atualizado
+
+pra remover o link o comando é git remote rm origin
+
+pra adicionar git remote add origin (link do repositorio)
+))
+
+49.conhecfendo os submodules
+
+
+Trabalhando com submódulos
+
+O submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositorio;
+
+Podemos adicionar uma dependencia ao nosso projeto atual, porém mantendo suas etruturas separadas;
+
+Para adicionar o submódulo utilizamos o comando git submodule add <repo>
+
+Para verificar os submódulos o comando é git submodule 
+
+é uma pasta que voce usa como sub pasta
+
+é uma pasta que fica dentro de outra pasta, é um projeto de git dentro do outro.
+
+50. atualizando os submodules 
+
+Para atualizar um submódulo primeiro devemos commitar as mudanças;
+
+E para enviar para o repo do submóudlo utilizamos git push
+
+--recurse-submodules=on-demand
+
+Este fluxo fará a atualização apenas do submódulo;
+

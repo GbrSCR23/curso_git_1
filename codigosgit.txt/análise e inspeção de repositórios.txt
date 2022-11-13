@@ -1,0 +1,9 @@
+Exebindo informações
+
+O comando git show nos dá diversarsmas informações úteis
+
+Ele nos dá as informações do bracnh atual e também seus commits;
+
+As modificações de arquivos entre cada commit também são exibidas;
+
+Podemos exibir as informações da tags também com: git show <tag>
